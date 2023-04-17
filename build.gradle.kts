@@ -1,6 +1,7 @@
-allprojects {
-  apply(plugin: 'maven')
+plugins {
+    `maven-publish`
 }
 
-group   =   "com.thecrownstudios"
-version =   "0.1-SNAPSHOT"
+allprojects {
+    apply(plugin = "maven-publish")
+}
