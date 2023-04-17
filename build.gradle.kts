@@ -1,5 +1,5 @@
 allprojects {
-  apply plugin: 'maven'
+  apply(plugin: 'maven')
 }
 
 group   =   "com.thecrownstudios"
